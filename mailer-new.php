@@ -8,7 +8,7 @@
 
     // Check the data.
     if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        header("Location: https://yananaidenov.github.io/OBO/#contact");
+        header("Location: https://yananaidenov.github.io/OBO/index.php?success=-1#contact");
         exit;
     }
 
@@ -30,6 +30,6 @@
     mail($recipient, $subject, $email_content, $email_headers);
     
     // Redirect to the index.html page with success code
-    header("Location: https://yananaidenov.github.io/OBO/#contact");
+    header("Location: https://yananaidenov.github.io/OBO/index.php?success=1#contact");
 
 ?>
