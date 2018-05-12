@@ -294,7 +294,7 @@
                     }
                     
                     if($_GET['success'] == -1) {
-                        echo "<div class="form-messages error">
+                        echo "<div class=\"form-messages error\">
                         Oops! Something went wrong. Please try again.</div>";
                     }
                         
