@@ -283,7 +283,7 @@
         </div>
         <form method="post" actions="mailer-new.php" class="contact-form">
         <div class="row">
-            <form method="post" action="#" class="contact-form">
+            <form method="post" action="mailer-new.php" class="contact-form">
 
                 <div class="row">
                     
